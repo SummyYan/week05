@@ -13,12 +13,12 @@
         <a href="http://localhost:8000/newtask">Add New Task</a>  
     </h1>
 
-    <h2>
+    
     <table>
         <tr>
-            <td>Name</td>
-            <td>Due Date</td>
-            <td>Description</td>
+            <th>Name</th>
+            <th>Due Date</th>
+            <th>Description</th>
         </tr>
         <% for (let i =0; i< taskDb.length; i++){ %>
             <tr>
@@ -34,7 +34,7 @@
             </tr>
         <%}%>
     </table>
-    </h2>
+   
 
 </body>
 
